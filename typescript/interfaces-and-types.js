@@ -1,4 +1,6 @@
 "use strict";
+/* Interface and Types are same in Typescript but interface is used to create a type of an object
+and types are used to create a type of a variable or a function. */
 Object.defineProperty(exports, "__esModule", { value: true });
 const User = {
     id: 1,
