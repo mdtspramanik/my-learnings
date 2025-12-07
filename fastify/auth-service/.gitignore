@@ -1,0 +1,90 @@
+# --------------------------------------------------
+# Node / Fastify Core
+# --------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Output
+dist/
+build/
+.tmp/
+
+# --------------------------------------------------
+# Fastify Plugins / Autoload
+# --------------------------------------------------
+plugins/*.js.map
+routes/*.js.map
+
+# --------------------------------------------------
+# Environment Files
+# --------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --------------------------------------------------
+# Logs
+# --------------------------------------------------
+logs/
+*.log
+*.log.*
+debug.log
+
+# PM2 Logs
+.pids
+pids
+*.pid
+*.seed
+
+# --------------------------------------------------
+# TypeScript
+# --------------------------------------------------
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# Compiled files
+**/*.js
+**/*.js.map
+
+# --------------------------------------------------
+# Testing
+# --------------------------------------------------
+coverage/
+.nyc_output/
+
+# --------------------------------------------------
+# OS / Editor Files
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+
+# --------------------------------------------------
+# Docker
+# --------------------------------------------------
+docker-compose.override.yml
+*.dockerfile
+
+# --------------------------------------------------
+# Miscellaneous
+# --------------------------------------------------
+.cache/
+.sass-cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
